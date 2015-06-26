@@ -327,11 +327,123 @@ article .contenido-nosotros .cont-info p{
 	font-weight: 300;
 	font-family: 'Ubuntu', sans-serif;
 }
+article .contenido-nosotros .cont-info .compartir-sociales{
+	margin-top: 35px;
+}
+article .contenido-nosotros .cont-info .foto-noticia{
+	padding: 0;
+	margin-bottom: 35px;
+}
+article .contenido-nosotros .cont-info .noticias{
+	margin-top: 35px;
+}
+article .contenido-nosotros .cont-info .noticias ul{
+	list-style: none;
+	padding: 0;
+}
+article .contenido-nosotros .cont-info .noticias ul li,
+article .contenido-nosotros .cont-info .noticias ul li a{
+	padding: 5px 0;
+	color: #302e33;
+	font-size: 17px;
+	line-height: 24px;
+	text-align: left;
+	font-weight: 500;
+	font-family: 'Ubuntu', sans-serif;
+}
+article .contenido-nosotros .cont-info .volver{
+	border: none;
+	border-radius: 5px;
+	padding: 15px 0;
+	color: #fff;
+	margin-top: 35px;
+	background-color: #004184;
+	font-size: 22px;
+	float: left;
+	text-align: center;
+	width: 170px;
+	font-weight: 400;
+	font-family: 'Ubuntu', sans-serif;
+}
 article .contenido-nosotros figure{
 	margin: 35px 0 0 0;
 }
 article .contenido-nosotros figure img{
 	width: 100%;
+}
+article .contenido-nosotros .mapa{
+	margin-top: 35px;
+}
+article .contenido-nosotros .mapa p{
+	color: #666;
+	line-height: 21px;
+	font-size: 14px;
+	margin: 30px auto 0 auto;
+	text-align: left;
+	font-weight: 300;
+	font-family: 'Ubuntu', sans-serif;
+}
+article .contenido-nosotros .mapa p span{
+	color: #004184;
+	padding: 0;
+	line-height: 21px;
+	font-size: 14px;
+	margin: 30px auto 0 auto;
+	text-align: left;
+	font-weight: 400;
+	font-family: 'Ubuntu', sans-serif;
+}
+article .contenido-nosotros .cont-contacto{
+	margin-top: 35px;
+	padding: 0;
+}
+article .contenido-nosotros .cont-contacto form{
+	padding: 0;
+	margin-bottom: 40px;
+}
+article .contenido-nosotros .cont-contacto form .input{
+	border: 1px solid #f3f3f4;
+	width: 100%;
+	padding: 10px 20px;
+	color: #2f3133;
+	background-color: #fafafa;
+	font-size: 17px;
+	margin-bottom: 30px;
+	line-height: 24px;
+	text-align: left;
+	font-weight: 300;
+	font-family: 'Ubuntu', sans-serif;
+}
+article .contenido-nosotros .cont-contacto form .mensaje{
+	border: 1px solid #f3f3f4;
+	width: 100%;
+	padding: 10px 20px;
+	color: #2f3133;
+	background-color: #fafafa;
+	font-size: 17px;
+	margin-bottom: 30px;
+	line-height: 24px;
+	text-align: left;
+	height: 200px;
+	font-weight: 300;
+	font-family: 'Ubuntu', sans-serif;
+}
+article .contenido-nosotros .cont-contacto form .enviar{
+	border: none;
+	border-radius: 5px;
+	padding: 15px 0;
+	color: #fff;
+	background-color: #004184;
+	font-size: 22px;
+	float: left;
+	text-align: center;
+	width: 170px;
+	font-weight: 400;
+	font-family: 'Ubuntu', sans-serif;
+}
+article .contenido-nosotros .cont-contacto form .enviar:hover{
+	color: #eb694f;
+	text-decoration: none;
 }
 .footer{
 	padding: 40px 0;
@@ -554,7 +666,27 @@ figure.effect-zoe:hover h2 {
 .info-producto .detalle:hover{
 	text-decoration: none;
 	color: #eb694f;
-
+}
+.grid .mision{
+	color: #302e33;
+	font-size: 17px;
+	line-height: 24px;
+	margin: 0 auto 30px auto;
+	text-align: left;
+	font-weight: 500;
+	font-family: 'Ubuntu', sans-serif;
+}
+.grid .texto-mision{
+	color: #666;
+  	line-height: 21px;
+  	font-size: 14px;
+  	margin: 0 auto 30px auto;
+  	text-align: left;
+  	font-weight: 300;
+  	font-family: 'Ubuntu', sans-serif;
+}
+.grid .foto-mision img{
+	width: 100%;
 }
 /*---------------------------------------*/
 /***** fin lupa en la imagen y texto *****/
@@ -640,7 +772,7 @@ figure.effect-zoe:hover h2 {
 	padding: 0;
 	right: 0;
 	text-align: center;
-	top: 50px;
+	top: 30px;
 	width: 90%;
 }
 .slide .info h2{
@@ -714,20 +846,19 @@ figure.effect-zoe:hover h2 {
 	opacity: 0;
 }
 .demo{
-	margin-bottom: 30px;
+	margin: 35px 0;
 	position: relative;
 }
 .demo .gallery_demo{
-	border: 1px solid #ccc;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
 	width:100%;
 }
 .demo .gallery_demo li{
-	width: 32%;
+	margin: 15px 0 0 0;
 	display: inline-block;
-	background: #cc0033;
+	padding: 0;
 }
 #main_image{
 	padding: 0;
